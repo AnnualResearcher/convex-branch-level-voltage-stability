@@ -1,6 +1,6 @@
-# Branch-Level Voltage Stability Analysis
+# Convex Branch-Level Representation of Voltage Stability in Radial Networks
 
-A Python tool for analyzing voltage stability in power distribution networks using branch-level metrics.
+Simulation code for submitted paper "Convex Branch-Level Representation of Voltage Stability in Radial Networks".
 
 ## Overview
 
@@ -10,8 +10,8 @@ This project implements multiple voltage stability indices and compares their pe
 
 - **L-index** (Kessel & Glavitsch, 1986): Classic voltage stability index (L-index)
 - **Injection-based margin** (Wang/Cui/Wang): Margin computed as |V| - Σ|ZI|
-- **Single-branch determinant**: Branch-level stability metric based on power flow equations
-- **Path-accumulated margin**: Accumulated voltage stability determinant along network paths
+- **Single-branch determinant**: (Proposed) Branch-level stability metric based on power flow equations
+- **Path-accumulated margin**: (Proposed) Accumulated voltage stability determinant along network paths
 
 ## Installation
 
@@ -77,3 +77,4 @@ The analysis produces:
 
 1. Kessel, P., & Glavitsch, H. (1986). Estimating the Voltage Stability of a Power System. IEEE Transactions on Power Delivery, 3, 346–354.
 2. Wang, Z., Cui, B., & Wang, J. (2017). A Necessary Condition for Power Flow Insolvability in Power Distribution Systems with Distributed Generators. IEEE Transactions on Power Systems, 32(2), 1440–1450. https://doi.org/10.1109/TPWRS.2016.2588341
+3. L. Thurner, A. Scheidler, F. Schäfer et al, pandapower - an Open Source Python Tool for Convenient Modeling, Analysis and Optimization of Electric Power Systems, IEEE Transactions on Power Systems, DOI:10.1109/TPWRS.2018.2829021, 2018.
