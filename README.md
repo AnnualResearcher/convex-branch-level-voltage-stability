@@ -1,6 +1,6 @@
 # Convex Branch-Level Representation of Voltage Stability in Radial Networks
 
-Simulation code for submitted paper "Convex Branch-Level Representation of Voltage Stability in Radial Networks".
+Simulation code of a submitted paper "Convex Branch-Level Representation of Voltage Stability in Radial Networks".
 
 ## Overview
 
